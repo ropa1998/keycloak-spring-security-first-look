@@ -34,11 +34,6 @@ dependencies {
 
     // Keycloak
     implementation 'org.keycloak:keycloak-spring-boot-starter'
-
-    // Test
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    testImplementation 'org.springframework.boot:spring-security-test'
-    testImplementation 'org.keycloak:keycloak-test-helper'
 }
 
 dependencyManagement {
